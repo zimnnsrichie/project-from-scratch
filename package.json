@@ -1,0 +1,24 @@
+{
+  "name": "project-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "dist": "dist"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./dist/index.js",
+    "compile": "tsc",
+    "server": "live-server"
+  },
+  "keywords": [],
+  "author": "Antony Vivek Richard",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "lodash": "^4.17.21"
+  }
+}
